@@ -1,0 +1,48 @@
+.image-container{
+    margin: auto;
+    padding-top: 1.75%;
+    width: 97%;
+    position: relative;
+}
+.image-container img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.overlay-text {
+    position: absolute; 
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    font-size: 24px; 
+    text-align: center; 
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.search-bar {
+    margin-top: 10px;
+    padding: 8px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px; 
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+.search-bar::placeholder {
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+    .overlay-text {
+        width: 70%;
+    }
+    .search-bar {
+        padding: 5px;
+        font-size: 14px; 
+        text-align: center;
+    }
+}

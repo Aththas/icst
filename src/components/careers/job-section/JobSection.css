@@ -1,0 +1,80 @@
+.job-list-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.job-list-container h1 {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.job-list-container p {
+    margin-bottom: 20px;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #94263e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.job-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.job-card {
+    border: 1px solid #94263E;
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.job-card h3 {
+    color: #94263E;
+    margin: 0;
+}
+
+.job-priority {
+    background-color: #94263E;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.job-location {
+    margin: 5px 0;
+}
+
+.closing-date {
+    margin: 10px 0;
+}
+
+.apply-button,
+.view-details-button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.apply-button {
+    background-color: #28A745;
+    color: white;
+}
+
+.view-details-button {
+    background-color: #17A2B8;
+    color: white;
+}
