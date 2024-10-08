@@ -69,3 +69,10 @@
     background-color: white;
     color: #7E102C;
 }
+
+@media(max-width: 1224px){
+    .sidebar-header h2{
+        margin-top: 2vh;
+        font-size: 1rem;
+    }
+}
