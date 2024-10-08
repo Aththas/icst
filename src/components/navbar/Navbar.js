@@ -21,7 +21,7 @@ const Navbar = () => {
                     <li><NavLink to="/careers">Careers</NavLink></li>
                     <li><NavLink to="/blogs">Blog</NavLink></li>
                     <li><NavLink to="/events">Events</NavLink></li>
-                    <li><NavLink to="/fees">Fee</NavLink></li>
+                    <li><NavLink to="/login">Login</NavLink></li>
                 </ul>
                 <ul className={menuOpen && "open"}>
                     <li><NavLink to="/lms" className="button">LMS</NavLink></li>

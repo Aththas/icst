@@ -1,5 +1,6 @@
 import React from 'react'
 import './LoginSection.css'
+import { Link } from 'react-router-dom'
 
 const LoginSection = () => {
   return (
@@ -20,7 +21,7 @@ const LoginSection = () => {
                             <input type='password' id='pwd' name='pwd' placeholder='   password' required/>
                         </div>
                         <div className='form-data form-btn'>
-                            <button type="submit" className="login-btn">Log In</button>
+                             <button type="submit" className="login-btn"><Link to='/viewJob'>Log In</Link> </button>   
                         </div>
                     </form>
                 </div>
